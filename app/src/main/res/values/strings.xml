@@ -7,4 +7,9 @@
     <string name="select_offer">I want to offer a safe home</string>
     <string name="select_text">Select an option to continue</string>
     <string name="crisis_text">If you’re facing an <b>urgent crisis</b>, please contact the women crisis line.</string>
+    <string name="photos">Photos</string>
+    <string name="bio">Bio</string>
+    <string name="duration_stay">Duration of Stay</string>
+    <string name="welcoming">Welcoming</string>
+    <string name="located_near">Located Near</string>
 </resources>
