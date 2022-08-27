@@ -6,6 +6,5 @@
     <string name="select_need">I’m in need of a safe home</string>
     <string name="select_offer">I want to offer a safe home</string>
     <string name="select_text">Select an option to continue</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="crisis_text">If you’re facing an <b>urgent crisis</b>, please contact the women crisis line.</string>
 </resources>
