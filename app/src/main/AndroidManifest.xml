@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Technova">
-        <activity android:name=".ChatActivity"></activity>
+        <activity android:name=".HomeProfileActivity"></activity>
+        <activity android:name=".ChatActivity" />
         <activity android:name=".ProfileActivity" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".SelectActivity" />
