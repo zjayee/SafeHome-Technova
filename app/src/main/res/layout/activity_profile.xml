@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeActivity">
+    tools:context=".ProfileActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="home"
+        android:text="profile"
         />
 
     <fragment
@@ -20,5 +20,4 @@
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout="@layout/fragment_bottom_menu"
         />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
