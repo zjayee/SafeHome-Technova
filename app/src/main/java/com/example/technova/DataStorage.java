@@ -16,14 +16,14 @@ public class DataStorage {
     static void populate_needList()
     {
         //TODO: Create people objects and add to needList
-        People person1 = new People("Amelia Wright", 22, "Fleeing abusive husband with my 3 year old daughter. Looking for a place to stay for a few months, ideally near a preschool. ", R.drawable.pfp1, R.drawable.cover1);
-        People person2 = new People("Betty Angelo", 47, "Traveling with 2 children aged 14 and 16. Looking for a place to stay for a month at minimum. ", R.drawable.pfp1, R.drawable.cover1); 
-        People person3 = new People("Ana Kharchenko", 31, "Traveling solo. Desperately in need a place to stay even if only for a few nights. ", R.drawable.pfp1, R.drawable.cover1); 
-        People person4 = new People("Cindy Lee", 53, "Traveling with my 17 year old son. Looking for a place to stay for a month at minimum. ", R.drawable.pfp1, R.drawable.cover1); 
-        People person5 = new People("Mehak Agarwal", 24, "Fleeing domestic abuse, traveling solo. Need a for a place to stay for a couple weeks at minimum. ", R.drawable.pfp1, R.drawable.cover1); 
-        People person6 = new People("Sarah Goldman", 37, "Need a place to stay with my 3 children aged 14, 12, and 8. ", R.drawable.pfp1, R.drawable.cover1); 
-        People person7 = new People("Janice Emory", 55, "Need a place near a hospital for me and my cat to stay for a few weeks. ", R.drawable.pfp1, R.drawable.cover1); 
-        People person8 = new People("Jada Jones", 19, "Pregnant. Looking for a place near a hospital to stay for a few months. ", R.drawable.pfp1, R.drawable.cover1); 
+        People person1 = new People("Amelia Wright", 22, "Fleeing abusive husband with my 3 year old daughter. Looking for a place to stay for a few months, ideally near a preschool. ", R.drawable.ameliawright, R.drawable.cover1);
+        People person2 = new People("Betty Angelo", 47, "Traveling with 2 children aged 14 and 16. Looking for a place to stay for a month at minimum. ", R.drawable.bettyangelo, R.drawable.cover1); 
+        People person3 = new People("Ana Kharchenko", 31, "Traveling solo. Desperately in need a place to stay even if only for a few nights. ", R.drawable.anakharchenko, R.drawable.cover1); 
+        People person4 = new People("Cindy Lee", 53, "Traveling with my 17 year old son. Looking for a place to stay for a month at minimum. ", R.drawable.cindylee, R.drawable.cover1); 
+        People person5 = new People("Mehak Agarwal", 24, "Fleeing domestic abuse, traveling solo. Need a for a place to stay for a couple weeks at minimum. ", R.drawable.mehakagarwal, R.drawable.cover1); 
+        People person6 = new People("Sarah Goldman", 37, "Need a place to stay with my 3 children aged 14, 12, and 8. ", R.drawable.sarahgoldman, R.drawable.cover1); 
+        People person7 = new People("Janice Emory", 55, "Need a place near a hospital for me and my cat to stay for a few weeks. ", R.drawable.janiceemory, R.drawable.cover1); 
+        People person8 = new People("Jada Jones", 19, "Pregnant. Looking for a place near a hospital to stay for a few months. ", R.drawable.jadajones, R.drawable.cover1); 
         needList.add(person1);
         needList.add(person2);
         needList.add(person3);
