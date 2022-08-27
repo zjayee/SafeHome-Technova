@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">technova</string>
+    <string name="app_name">SafeHome</string>
+    <string name="welcome">Welcome</string>
+    <string name="home_description"><b>SafeHome</b> connects women and girls to safe women sponsored homes.</string>
+    <string name="continue_text">Tap to continue ></string>
+    <string name="select_need">I’m in need of a safe home</string>
+    <string name="select_offer">I want to offer a safe home</string>
+    <string name="select_text">Select an option to continue</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

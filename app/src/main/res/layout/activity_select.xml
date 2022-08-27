@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/logo_imageview"
+            android:layout_width="130dp"
+            android:layout_height="110dp"
+            android:src="@drawable/ic_logo_safehome"
+            />
+
+        <Button
+            android:id="@+id/need_button"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/main_pink"
+            android:layout_marginTop="50dp"
+            android:text="@string/select_need"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:fontFamily="@font/lexend"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/offer_button"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/main_pink"
+            android:layout_marginTop="50dp"
+            android:text="@string/select_offer"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:fontFamily="@font/lexend"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/continue_textview"
+        android:layout_width="257dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/linear_layout"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="60dp"
+        android:text="@string/select_text"
+        android:gravity="center"
+        android:textColor="@color/main_pink"
+        android:fontFamily="@font/lexend"
+        android:textSize="14sp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

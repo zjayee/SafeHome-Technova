@@ -9,6 +9,9 @@ public class DataStorage {
     //singleton list of people offering homes
     public static ArrayList<People> helpList;
 
+    //usertype can be two values: NEEDHELP and OFFERHELP
+    public static UserType userType;
+
     //Adds people objects to need list
     static void populate_needList()
     {
