@@ -1,4 +1,4 @@
-#SafeHome - Technova 2022 Hackathon Submission
+# SafeHome - Technova 2022 Hackathon Submission
 ## Inspiration
 - We were inspired to create an app that would be able to offer direct and immediate relief to women who are in need of safe homes. After learning how many women and children suffer from abusive households with nowhere to turn, we wanted a way to connect them with fellow women who would be able to offer them support.
 
