@@ -12,4 +12,5 @@
     <string name="duration_stay">Duration of Stay</string>
     <string name="welcoming">Welcoming</string>
     <string name="located_near">Located Near</string>
+    <string name="chat">Chat</string>
 </resources>

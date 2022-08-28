@@ -43,13 +43,13 @@ public class DataStorage {
         helpList = new ArrayList<>();
         //Example: upload/drag cover photo and pfp to drawable folder under res to use
         People helper1 = new People("Jessica Diaz", 39, "Single mom with two kids and a dog located in Toronto. My safe home is children and pet friendly. Can house 3 for up to 4 months. ", R.drawable.jessicadiaz, R.drawable.cover1);
-        People helper2 = new People("Stephanie Ryder", 25, "Hi I’m Stephanie, it’s nice to meet you! I’m a product designer based in Toronto, ON. I’m a strong advocate for womens rights - that’s why I’m thrilled to be apart of this community and share my space with you! Don’t shy away from leaving me a message! I have space for three right now. ", R.drawable.pfp1, R.drawable.cover1);
-        People helper3 = new People("Lucy Lui", 28, "Photographer located in Toronto. Not pet friendly, children are welcome though. Can house 2 for up to 6 months. ", R.drawable.lucychen, R.drawable.cover1);
-        People helper4 = new People("Amanda Nagerman", 46, "Elementary School Teacher located in Brampton. Can house up to 4 people for 6 months. ", R.drawable.amandanagerman, R.drawable.cover1);
-        People helper5 = new People("Miranda Smith", 35, "Software engineer based in Markham. Pets and children are welcome. Can house up to 3 for as long as necessary. ", R.drawable.mirandasmith, R.drawable.cover1);
+        People helper2 = new People("Stephanie Ryder", 25, "Hi I’m Stephanie, it’s nice to meet you! I’m a product designer based in Toronto, ON. I’m a strong advocate for womens rights - that’s why I’m thrilled to be apart of this community and share my space with you! Don’t shy away from leaving me a message! I have space for three right now. ", R.drawable.pfp1, R.drawable.cover2);
+        People helper3 = new People("Lucy Lui", 28, "Photographer located in Toronto. Not pet friendly, children are welcome though. Can house 2 for up to 6 months. ", R.drawable.lucychen, R.drawable.cover3);
+        People helper4 = new People("Amanda Nagerman", 46, "Elementary School Teacher located in Brampton. Can house up to 4 people for 6 months. ", R.drawable.amandanagerman, R.drawable.cover4);
+        People helper5 = new People("Miranda Smith", 35, "Software engineer based in Markham. Pets and children are welcome. Can house up to 3 for as long as necessary. ", R.drawable.mirandasmith, R.drawable.cover5);
         People helper6 = new People("Julie Huang", 28, "Writer from Hamilton. Unsuitable for pets and children. Can house 1 for up to a month. ", R.drawable.janiceemory, R.drawable.cover1);
-        People helper7 = new People("Zuri Johnston", 28, "Accountant based in Waterloo. Home can house 2 for up to 3 months. No pets, but children are welcomed. ", R.drawable.ameliawright, R.drawable.cover1);
-        People helper8 = new People("Isabella Knight", 31, "Architect living in Ottawa. Room for one person to stay up to 6 months. ", R.drawable.sarahgoldman, R.drawable.cover1);
+        People helper7 = new People("Zuri Johnston", 28, "Accountant based in Waterloo. Home can house 2 for up to 3 months. No pets, but children are welcomed. ", R.drawable.ameliawright, R.drawable.cover2);
+        People helper8 = new People("Isabella Knight", 31, "Architect living in Ottawa. Room for one person to stay up to 6 months. ", R.drawable.sarahgoldman, R.drawable.cover3);
         helpList.add(helper1);
         helpList.add(helper2);
         helpList.add(helper3);
