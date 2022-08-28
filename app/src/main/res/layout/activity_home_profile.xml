@@ -134,7 +134,7 @@
             android:layout_marginTop="7dp"
             android:layout_marginLeft="29dp"
             android:text="Single mom with two kids and a dog located in Toronto. My safe home is children and pet friendly. Can house 3 for up to 4 months."
-            android:textColor="@color/main_pink"
+            android:textColor="@color/black"
             android:fontFamily="@font/lexend"
             android:textSize="12sp"
             />
@@ -159,7 +159,7 @@
             android:layout_marginTop="7dp"
             android:layout_marginLeft="29dp"
             android:text="2 Months"
-            android:textColor="@color/main_pink"
+            android:textColor="@color/black"
             android:fontFamily="@font/lexend"
             android:textSize="12sp"
             />
@@ -184,7 +184,7 @@
             android:layout_marginTop="7dp"
             android:layout_marginLeft="29dp"
             android:text="3 People, Pets"
-            android:textColor="@color/main_pink"
+            android:textColor="@color/black"
             android:fontFamily="@font/lexend"
             android:textSize="12sp"
             />
@@ -209,10 +209,24 @@
             android:layout_marginTop="7dp"
             android:layout_marginLeft="29dp"
             android:text="School, Hospital, Grocery"
-            android:textColor="@color/main_pink"
+            android:textColor="@color/black"
             android:fontFamily="@font/lexend"
             android:textSize="12sp"
             />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            >
+            <ImageButton
+                android:id="@+id/contact_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_contactbutton"
+                />
+        </RelativeLayout>
 
     </LinearLayout>
     </ScrollView>

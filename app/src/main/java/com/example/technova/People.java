@@ -1,9 +1,10 @@
 package com.example.technova;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class People {
+public class People implements Serializable {
     String name;
     Integer age;
     Integer profilePicture; //drawables can be stored as integers

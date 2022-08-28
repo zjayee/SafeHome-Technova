@@ -1,6 +1,7 @@
 package com.example.technova;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -40,6 +41,16 @@ public class PeopleAdapter extends RecyclerView.Adapter<PeopleViewHolder> {
         holder.distanceTextView.setText(new StringBuilder().append(distance).append("km away").toString());
         int duration = (int)(Math.random()*10)+1;
         holder.durationTextView.setText(new StringBuilder().append(duration).append(" week duration").toString());
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, HomeProfileActivity.class);
+                intent.putExtra("person", person);
+                intent.putExtra("distance", distance);
+                intent.putExtra("duration", duration);
+                context.startActivity(intent);
+            }
+        });
     }
 
     @Override
