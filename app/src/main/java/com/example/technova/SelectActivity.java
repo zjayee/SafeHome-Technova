@@ -42,7 +42,7 @@ public class SelectActivity extends AppCompatActivity {
     }
 
     void navigateToHome(){
-        Intent intent = new Intent(getBaseContext(), HomeActivity.class);
+        Intent intent = new Intent(getBaseContext(), MapActivity.class);
         startActivity(intent);
     }
 }
